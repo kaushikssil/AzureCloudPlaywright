@@ -1,0 +1,22 @@
+{
+  "name": "playwrightpom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webtests": "npx playwright test --grep @Web",
+    "APItests": "npx playwright test --grep @Api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure-playwright": "^3.10.2",
+    "typescript": "^7.0.2"
+  }
+}

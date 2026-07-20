@@ -1,0 +1,8 @@
+[ 'ADIDAS ORIGINAL', 'ZARA COAT 3', 'iphone 13 pro' ]
+3
+ADIDAS ORIGINAL
+ZARA COAT 3
+true
+CVV Code ?
+3
+The order id is  | 6a5df0df85b8849b49fa98e9 | 
