@@ -41,7 +41,7 @@ export default defineConfig({
     //Browser to be used
     browserName: "chromium",
 
-    headless: false,
+    headless: true,
 
     //Screenshot configuration
     screenshot: "only-on-failure",
@@ -50,7 +50,7 @@ export default defineConfig({
     video: "retain-on-failure",
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: "on",
+    trace: "retain-on-failure",
 
     //viewport: { width: 1920, height: 1080 },
   },
